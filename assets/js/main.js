@@ -15,7 +15,7 @@
       e.preventDefault();
       document.documentElement.classList.remove('page-enter');
       document.documentElement.classList.add('page-exit');
-      setTimeout(function(){ window.location = href; }, 340);
+      setTimeout(function(){ window.location = href; }, 260);
     }, true);
 
     // Button ripple effect
@@ -30,7 +30,7 @@
       ripple.style.left = (e.clientX - rect.left - size/2) + 'px';
       ripple.style.top = (e.clientY - rect.top - size/2) + 'px';
       btn.appendChild(ripple);
-      setTimeout(function(){ ripple.remove(); }, 650);
+      setTimeout(function(){ ripple.remove(); }, 520);
     }, true);
   }
 
